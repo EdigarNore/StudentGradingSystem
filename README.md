@@ -6,6 +6,12 @@ A beginner-friendly Java application that calculates student totals, averages, g
 
 This project is part of my journey toward becoming a software developer and AI engineer. I'm building practical projects while strengthening my Java programming and object-oriented programming fundamentals.
 
+## 📸 Application Preview
+
+Here's a screenshot of the application running in Eclipse:
+
+![Student Grading System Output](SystemOutput.png)
+
 ## ✨ Features
 
 - 📝 Stores student names and marks.
