@@ -9,16 +9,19 @@ public class Main {
 		
 
 	 //CLASS OBJECTS
-	 
-	 Student[] students=new Student[3];
+		
+		
+	      Student[] students=new Student[3];
+	      
 	     for(int i=0;i<students.length;i++) {
-	    	 students[i]=new Student();
+	    	 
+	    	 Scanner scanner=new Scanner(System.in);
+	    	 
+	    	     students[i]=new Student();
 	    	 	    	 
 	    	 	    		 
-	    		 students[i]= new Student();
-	    		
-	    		 Scanner scanner=new Scanner(System.in);
-	    		 System.out.println("Enter Student Name");
+	    		 
+	             System.out.println("Enter Student Name");
 	    		 students[i].name=scanner.nextLine();
 	    		 System.out.println("Enter Mark 1");
 	    		 students[i].mark1=scanner.nextInt();
@@ -33,6 +36,7 @@ public class Main {
 	    		 System.out.println("Mark 2: " + students[i].mark2);
 	    		 System.out.println("Mark 3: " + students[i].mark3);
 	    		 System.out.println("Total: " + students[i].calculator());
+	    		 System.out.println("Average: "+ students[i].studentAverage());
 	    	     System.out.println("Grade: " + students[i].studentGrade());
 	    		 System.out.println("Status: " + students[i].studentStatus());
 	    		 System.out.println("---------------------------------------"); 
