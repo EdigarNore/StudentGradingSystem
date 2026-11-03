@@ -6,6 +6,14 @@ package inPractice;
 	   int mark2;
 	   int mark3;
 	   
+//CONSTRUCTOR	   
+Student(String name, int mark1, int mark2, int mark3){
+		   this.name=name;
+		   this.mark1=mark1;
+		   this.mark2=mark2;
+		   this.mark3=mark3;
+	   }
+	   
 	   void introduction() {
 		   
 		   System.out.println("My name is " + name);
